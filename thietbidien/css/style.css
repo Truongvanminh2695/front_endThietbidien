@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* root là định nghĩa biến  */
+:root{
+/* 
+* thường sẽ định nghĩa 
+* 1: font-family-main:;
+* 2: color-main:;
+* 3 text-font-size: ;
+* 4 h1 font-size : ;
+* 5 h2 font-size ; ;
+ */
+
+ --font-family-main:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ --color-main: #0e4a9a;
+ --text-font-size: 16px;
+ --h1-font-size : 30px;
+ --h2-font-size : 20px;
+ --h3-font-size : 15px;
+}
+html{
+    font-family: var(--font-family-main)
+}
+header{
+    background-color: #eee;
+}
+
+header .header-info-company{
+    display: flex;
+    text-decoration: none;
+    color: #0e4a9a;
+}
+
+.header-info-company .header-logo-company{}
+
+.header-logo-company img{
+    width: 80px;
+    height: 80px;
+}
+
+.header-info-company .header-text-company{}
+.header-text-company h1{
+    font-weight: 700px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+}
+.header-text-company i{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+header .header-social-company{}
+
+.header-social-company ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-social-company li{
+    margin-right: 2px;
+    display: block;
+}
+
+.header-social-company a{
+    display: block;
+    transition: 0.4s;
+}
+
+/* để  tạo hover khi link */
+.header-social-company a:hover{
+    /* padding: 3px; */
+    /* border: solid 1px black; */
+    border-radius: 7px;
+    box-shadow: 0px 1px 4px 0px e;
+    box-shadow: 0px 1px 4px 0px black;
+    transform: translateY(-5px);
+    /* transition: 0.4s; */
+}
+
+.header-social-company img{
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+}
+
+/* FOOTER */
+footer{}
+
+footer.footer-list-link{}
+
+footer.footer-list-link.footer-list-new{}
+
+footer.footer-list-link.footer-info-company{}
+
+footer.footer-list-link.footer-list-file{}
+
+footer.footer-list-link h3{}
+
+footer.footer-list-link ul{}
+
+footer.footer-list-link li{}
+
+footer.footer-list-link a{}
+
+footer.footer-list-link i{}
+
+footer.footer-list-link span{}
+
+
+
+
+
+
+/* END-FOOTER */
